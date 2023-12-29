@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>bootstrap</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        section {
+            height: 30vh;
+            width: 50%;
+
+
+        }
+        section .table{
+            width: 45%;
+            padding-bottom: 20px;
+        }
+        section div form{
+            width: 45%;
+            padding-bottom: 20px;
+        }
+        section .cards{
+            display: flex;
+            gap: 10px;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <section>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+            <div class="cards">
+                <div class="card" style="width: 18rem; height: 20vh;">
+                    <img src="image/istockphoto-1444929379-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                   
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; height: 20vh;">
+                    <img src="image/istockphoto-1453352793-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                     
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; height: 20vh;">
+                    <img src="image/istockphoto-1468511812-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; height: 20vh;">
+                    <img src="image/istockphoto-1470363336-612x612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                     
+                    
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+    </center>
+
+</body>
+
+</html>

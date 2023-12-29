@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+section div {
+    background-color: aqua;
+    border-radius: 100%;
+    position: absolute;
+}
+
+section div:first-child {
+    background-color: #1b356a;
+    top: 70%;
+    left: 15%;
+    width: 60%;
+    height: 60%;
+    z-index: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: rotating 1.5s;
+}
+
+section div:first-child p span {
+    text-decoration: underline;
+}
+
+section div:first-child button {
+    background: none;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+section div:first-child button:hover {
+    background-color: white;
+    color: #1b356a;
+    cursor: pointer;
+}
+
+section div:nth-child(2) {
+    background-color: rgba(128, 128, 128, 0.301);
+    width: 60%;
+    height: 60%;
+    top: 60%;
+    right: 15%;
+    animation: claim 1s linear 1s forwards;
+    opacity: 0;
+}
+
+section div:last-child {
+    background-image: url('../images/axelborg-towers-modern-architecture-6544.jpg');
+    width: 80%;
+    height: 80%;
+    top: 100px;
+    z-index: 1;
+    animation: showing 3s;
+}
+
+@keyframes showing {
+    from {
+        left: -100%;
+        opacity: 0;
+    }
+    to {
+        left: 10%;
+        opacity: 1;
+    }
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(180deg);
+        top: 100%;
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0deg);
+        top: 70%;
+        opacity: 1;
+    }
+}
+
+@keyframes claim {
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+    to {
+        top: 60%;
+        opacity: 1;
+    }
+}

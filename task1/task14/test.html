@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        div{
+            background-color: brown;
+            height: 20vh;
+            width: 10%;
+            border-radius: 15px;
+            animation-name: squre;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: both;
+
+        }
+        div:hover{
+            animation-play-state: paused;
+            cursor: pointer;
+        }
+@keyframes squre{
+    0%{
+    background-color: aqua;
+    rotate: 90deg;
+    translate: 0 0;
+    }
+    25%{
+    background-color: orangered;
+    rotate: 180deg;
+    translate: 0 550px;
+    }
+    50%{
+        background-color:green;
+    translate: 1430px 550px;  
+    }
+    75%{
+    background-color: red;
+    rotate: 270deg;
+    translate:1430px 0 ;
+    }
+    100%{
+    background-color:yellow;
+    translate: 0 0;
+    }
+   
+}
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

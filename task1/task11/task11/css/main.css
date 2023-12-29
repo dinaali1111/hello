@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#intro {
+    background-color: #37517e;
+    height: 80vh;
+    padding: 0 17vw;
+}
+
+#intro #nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#intro #nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4vh;
+    align-items: center;
+    font-size: 14px;
+}
+
+#intro #nav ul li {
+    transition: all 0.3s;
+}
+
+#intro #nav ul li:hover {
+    color: #49b0d5;
+    cursor: pointer;
+}
+
+#intro #nav ul li:first-child {
+    color: #49b0d5;
+}
+
+#intro #nav ul li:last-child {
+    border: 2px solid #49b0d5;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#intro #nav ul li:nth-child(6) i {
+    margin-left: 1vh;
+    transition: all 0.2s;
+}
+
+#intro #nav ul li:nth-child(6):hover i {
+    margin-left: 2vh;
+}
+
+#intro #nav .logo {
+    font-size: x-large;
+}
+
+#intro #content {
+    height: calc(80vh - 8vh);
+    display: flex;
+    align-items: center;
+}
+
+#intro #content .text {
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro #content .text h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#intro #content .text p {
+    color: rgba(255, 255, 255, 0.697);
+    font-size: 20px;
+    margin-top: 2vh;
+}
+
+#intro #content .text .buttons {
+    margin-top: 7vh;
+    display: flex;
+    gap: 2vw;
+}
+
+#intro #content .text .buttons :first-child {
+    background-color: #49b0d5;
+    font-size: large;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+#intro #content .text .buttons :last-child {
+    font-size: large;
+    color: white;
+    border: 0;
+    background: transparent;
+}
+
+#intro #content .text .buttons :last-child i {
+    border: 2px solid;
+    padding: 10px;
+    padding-left: 13px;
+    border-radius: 40px;
+    margin-right: 1vw;
+    transition: all 0.3s;
+   
+}
+
+#intro #content .text .buttons :last-child i:hover {
+   
+
+    color: #49b0d5;
+}
+
+#intro #content img {
+    height: 55vh;
+    margin-left: 5%;
+}
+
+#brands {
+    display: flex;
+    height: 15vh;
+    background-color: rgba(128, 128, 128, 0.187);
+    font-size: xx-large;
+    font-style: oblique;
+    padding: 0 17vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brands p {
+    transition: all 0.3s;
+}
+
+#brands p:hover {
+    font-size: 45px;
+}
+
+#Para {
+    color: #37517e;
+    text-align: center;
+    font-size: 25px;
+    height: 15vh;
+    width: 100%;
+    padding-top: 60px;
+}
+
+#Para div {
+    display: flex;
+    justify-content: center;
+   align-items: center
+   ;
+}
+
+#Para div :first-child {
+    font-size: 30px;
+    color: rgba(197, 193, 193, 0.822);
+}
+
+#Para div :last-child {
+    font-size: 30px;
+    color: rgba(197, 193, 193, 0.822);
+}
+
+#Para div :nth-child(2) {
+
+    font-size: 30px;
+    color: #49b0d5;
+
+}
+#Para span{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#paragraph{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+    height: 40vh;
+    gap: 5px;
+}
+#paragraph :first-child{
+    height: 10px;
+    font-size: 17px;
+
+}
+#paragraph :last-child{
+    height: 10px;
+    font-size: 17px;}
+#paragraph p span{
+    margin-top: 20px;
+    border: 2px solid  #49b0d5;
+    border-radius: 2px;
+    padding: 10px 20px ;
+    color: #49b0d5;
+    transition: all 1s;
+}
+#paragraph p span:hover{
+   
+    color: white;
+    background-color: #49b0d5 ;
+    cursor: pointer;
+}
+
+#contain{
+    display: flex;
+    background-color: rgba(194, 188, 188, 0.274) ;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contain #text{
+   color:  #37517e;
+   font-size: 20px;
+   width: 40%;
+   
+}
+
+#contain #img img{
+ 
+    height: 70vh
+ }
+ 
+ #accordionExample{
+    
+    height: 40vh;
+ }
+ #bnt1{
+    color: black;
+    transition: all 1s;
+ }
+ #bnt1:hover{
+   color:  #49b0d5;
+   cursor: pointer;
+ }
+ #bnt2{
+    color: black;
+    transition: all 1s;
+ }
+ #bnt2:hover{
+   color:  #49b0d5;
+   cursor: pointer;
+ } #bnt3{
+    color: black;
+    transition: all 1s;
+ }
+ #bnt3:hover{
+    cursor: pointer;
+   color:  #49b0d5;
+ }
+@media screen  and ( max-width : 767px){} ;
+    
